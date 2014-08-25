@@ -1,0 +1,16 @@
+---
+baseurl: "http://yoursite.example.com/"
+title: "Yoyodyne Widget Blogging"
+permalinks:
+  post: /:year/:month/:title/
+params:
+  Subtitle: "Spinning the cogs in the widgets"
+  AuthorName: "John Doe"
+  GitHubUser: "spf13"
+  ListOfFoo:
+    - "foo1"
+    - "foo2"
+  SidebarRecentLimit: 5
+pygmentsStyle:"monokai"
+pygmentsUseClasses: true
+---
